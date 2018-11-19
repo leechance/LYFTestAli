@@ -41,6 +41,18 @@
 		4BD387912122DB790088BDF8 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD387902122DB790088BDF8 /* UIView+Frame.m */; };
 		4BD387952122E2460088BDF8 /* LYFButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD387942122E2460088BDF8 /* LYFButton.m */; };
 		4BD387982122EC870088BDF8 /* LYFNavigationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD387972122EC870088BDF8 /* LYFNavigationView.m */; };
+		4C2E518021A26D0500FE7620 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD3870B212197080088BDF8 /* AppDelegate.m */; };
+		4C2E518521A26E0E00FE7620 /* TestAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2E518321A26E0E00FE7620 /* TestAnimationViewController.m */; };
+		4C2E518621A26E0E00FE7620 /* TestAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C2E518421A26E0E00FE7620 /* TestAnimationViewController.xib */; };
+		4C2E519021A2714B00FE7620 /* 活动-问卷icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C2E518721A2714800FE7620 /* 活动-问卷icon.png */; };
+		4C2E519121A2714B00FE7620 /* 活动-活动已办icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C2E518821A2714800FE7620 /* 活动-活动已办icon.png */; };
+		4C2E519221A2714B00FE7620 /* 活动-活动待办icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C2E518921A2714900FE7620 /* 活动-活动待办icon.png */; };
+		4C2E519321A2714B00FE7620 /* 会议-会议申请icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C2E518A21A2714900FE7620 /* 会议-会议申请icon.png */; };
+		4C2E519421A2714B00FE7620 /* 活动-报名icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C2E518B21A2714900FE7620 /* 活动-报名icon.png */; };
+		4C2E519521A2714B00FE7620 /* 活动-投票icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C2E518C21A2714A00FE7620 /* 活动-投票icon.png */; };
+		4C2E519621A2714B00FE7620 /* 会议-我的会议icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C2E518D21A2714A00FE7620 /* 会议-我的会议icon.png */; };
+		4C2E519721A2714B00FE7620 /* 活动-调查icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C2E518E21A2714A00FE7620 /* 活动-调查icon.png */; };
+		4C2E519821A2714B00FE7620 /* 会议-会议室列表icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C2E518F21A2714A00FE7620 /* 会议-会议室列表icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -129,6 +141,18 @@
 		4BD387942122E2460088BDF8 /* LYFButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYFButton.m; sourceTree = "<group>"; };
 		4BD387962122EC870088BDF8 /* LYFNavigationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYFNavigationView.h; sourceTree = "<group>"; };
 		4BD387972122EC870088BDF8 /* LYFNavigationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYFNavigationView.m; sourceTree = "<group>"; };
+		4C2E518221A26E0E00FE7620 /* TestAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestAnimationViewController.h; sourceTree = "<group>"; };
+		4C2E518321A26E0E00FE7620 /* TestAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestAnimationViewController.m; sourceTree = "<group>"; };
+		4C2E518421A26E0E00FE7620 /* TestAnimationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestAnimationViewController.xib; sourceTree = "<group>"; };
+		4C2E518721A2714800FE7620 /* 活动-问卷icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "活动-问卷icon.png"; sourceTree = "<group>"; };
+		4C2E518821A2714800FE7620 /* 活动-活动已办icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "活动-活动已办icon.png"; sourceTree = "<group>"; };
+		4C2E518921A2714900FE7620 /* 活动-活动待办icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "活动-活动待办icon.png"; sourceTree = "<group>"; };
+		4C2E518A21A2714900FE7620 /* 会议-会议申请icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "会议-会议申请icon.png"; sourceTree = "<group>"; };
+		4C2E518B21A2714900FE7620 /* 活动-报名icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "活动-报名icon.png"; sourceTree = "<group>"; };
+		4C2E518C21A2714A00FE7620 /* 活动-投票icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "活动-投票icon.png"; sourceTree = "<group>"; };
+		4C2E518D21A2714A00FE7620 /* 会议-我的会议icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "会议-我的会议icon.png"; sourceTree = "<group>"; };
+		4C2E518E21A2714A00FE7620 /* 活动-调查icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "活动-调查icon.png"; sourceTree = "<group>"; };
+		4C2E518F21A2714A00FE7620 /* 会议-会议室列表icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "会议-会议室列表icon.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,10 +209,20 @@
 				4BD3873C212288490088BDF8 /* LYFScrollView */,
 				4BD3870A212197080088BDF8 /* AppDelegate.h */,
 				4BD3870B212197080088BDF8 /* AppDelegate.m */,
+				4C2E518121A26DC000FE7620 /* VC */,
 				4BD3870D212197080088BDF8 /* ViewController.h */,
 				4BD3870E212197080088BDF8 /* ViewController.m */,
 				4BD38710212197080088BDF8 /* Main.storyboard */,
 				4BD38713212197090088BDF8 /* Assets.xcassets */,
+				4C2E518A21A2714900FE7620 /* 会议-会议申请icon.png */,
+				4C2E518F21A2714A00FE7620 /* 会议-会议室列表icon.png */,
+				4C2E518D21A2714A00FE7620 /* 会议-我的会议icon.png */,
+				4C2E518B21A2714900FE7620 /* 活动-报名icon.png */,
+				4C2E518E21A2714A00FE7620 /* 活动-调查icon.png */,
+				4C2E518921A2714900FE7620 /* 活动-活动待办icon.png */,
+				4C2E518821A2714800FE7620 /* 活动-活动已办icon.png */,
+				4C2E518C21A2714A00FE7620 /* 活动-投票icon.png */,
+				4C2E518721A2714800FE7620 /* 活动-问卷icon.png */,
 				4BD38715212197090088BDF8 /* LaunchScreen.storyboard */,
 				4BD38718212197090088BDF8 /* Info.plist */,
 				4BD38719212197090088BDF8 /* main.m */,
@@ -350,6 +384,16 @@
 			path = LYFView;
 			sourceTree = "<group>";
 		};
+		4C2E518121A26DC000FE7620 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				4C2E518221A26E0E00FE7620 /* TestAnimationViewController.h */,
+				4C2E518321A26E0E00FE7620 /* TestAnimationViewController.m */,
+				4C2E518421A26E0E00FE7620 /* TestAnimationViewController.xib */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -454,9 +498,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C2E519321A2714B00FE7620 /* 会议-会议申请icon.png in Resources */,
+				4C2E519721A2714B00FE7620 /* 活动-调查icon.png in Resources */,
+				4C2E519421A2714B00FE7620 /* 活动-报名icon.png in Resources */,
 				4BD38717212197090088BDF8 /* LaunchScreen.storyboard in Resources */,
+				4C2E519521A2714B00FE7620 /* 活动-投票icon.png in Resources */,
+				4C2E519221A2714B00FE7620 /* 活动-活动待办icon.png in Resources */,
+				4C2E519821A2714B00FE7620 /* 会议-会议室列表icon.png in Resources */,
+				4C2E519121A2714B00FE7620 /* 活动-活动已办icon.png in Resources */,
 				4BD38714212197090088BDF8 /* Assets.xcassets in Resources */,
+				4C2E518621A26E0E00FE7620 /* TestAnimationViewController.xib in Resources */,
 				4BD3877B2122D0080088BDF8 /* MJRefresh.bundle in Resources */,
+				4C2E519621A2714B00FE7620 /* 会议-我的会议icon.png in Resources */,
+				4C2E519021A2714B00FE7620 /* 活动-问卷icon.png in Resources */,
 				4BD38712212197080088BDF8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -506,6 +560,7 @@
 				4BD387792122D0080088BDF8 /* UIScrollView+MJRefresh.m in Sources */,
 				4BD3870C212197080088BDF8 /* AppDelegate.m in Sources */,
 				4BD3877E2122D0080088BDF8 /* UIView+MJExtension.m in Sources */,
+				4C2E518521A26E0E00FE7620 /* TestAnimationViewController.m in Sources */,
 				4BD3873F212288880088BDF8 /* LYFScrollView.m in Sources */,
 				4BD387882122D0080088BDF8 /* MJRefreshFooter.m in Sources */,
 				4BD3878B2122D0080088BDF8 /* MJRefreshAutoFooter.m in Sources */,
@@ -525,6 +580,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C2E518021A26D0500FE7620 /* AppDelegate.m in Sources */,
 				4BD3872F2121970A0088BDF8 /* LYFTestAliUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

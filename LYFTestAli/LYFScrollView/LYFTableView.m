@@ -8,6 +8,8 @@
 
 #import "LYFTableView.h"
 #import "UIView+Frame.h"
+#import "TestAnimationViewController.h"
+
 
 #define kRowHeight 50.f
 
@@ -18,11 +20,16 @@
 static NSString *tableViewCell = @"UITableViewCell";
 
 @implementation LYFTableView
+{
+    NSMutableArray*dataSourceArray;
+}
 
 -(instancetype)initWithFrame:(CGRect)frame style:(UITableViewStyle)style {
     if (self = [super initWithFrame:frame style:style]) {
         self.dataSource = self;
         self.delegate = self;
+        
+        dataSourceArray=[[NSMutableArray alloc]initWithArray:@[@"实现一个view从顶部移到底部的动画",@"测多岁的老是；发"]];
     }
     
     return self;
@@ -40,7 +47,7 @@ static NSString *tableViewCell = @"UITableViewCell";
 
 #pragma mark - UITableViewDataSource
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return self.rowNumber;
+    return dataSourceArray.count;
 }
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -50,7 +57,7 @@ static NSString *tableViewCell = @"UITableViewCell";
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:tableViewCell];
     }
     
-    cell.textLabel.text = [NSString stringWithFormat:@"这是第%ld行", indexPath.row];
+    cell.textLabel.text = dataSourceArray[indexPath.row];
     
     return cell;
 }
@@ -58,6 +65,14 @@ static NSString *tableViewCell = @"UITableViewCell";
 #pragma mark - UITableViewDelegate
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
     return kRowHeight;
+}
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    TestAnimationViewController*testAnimationVC=[[TestAnimationViewController alloc]init];
+    
+  
+    UINavigationController*nav=[UIApplication sharedApplication].delegate.window.rootViewController;
+    [nav pushViewController:testAnimationVC animated:YES];
 }
 
 -(void)scrollViewDidScroll:(UIScrollView *)scrollView {
