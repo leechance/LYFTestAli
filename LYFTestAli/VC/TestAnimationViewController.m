@@ -20,11 +20,17 @@
     NSMutableArray*dataSourceArray;
     __weak IBOutlet UIImageView *basketBall;
 }
-
+//将字符串@“abcdefghijklmn”中的efg 截取出来替换成 gfe
+-(void)replaceString{
+    NSString*targetSting=@"abcdefghijklmn";
+    NSString*destSting=[targetSting stringByReplacingOccurrencesOfString:@"efg" withString:@"gfe"];
+    NSLog(@"新字符串：%@",destSting);
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    [self replaceString];
     
     self.view.backgroundColor=[UIColor colorWithHexString:@"0x12237d"];
     self.view.backgroundColor=colorWithHexStr(@"0x12237d");
