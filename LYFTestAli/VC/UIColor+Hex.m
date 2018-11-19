@@ -3,7 +3,7 @@
 //  LYFTestAli
 //
 //  Created by chance on 2018/11/19.
-//  Copyright © 2018 李玉枫. All rights reserved.
+//  Copyright © 2018 chancelee. All rights reserved.
 //
 
 

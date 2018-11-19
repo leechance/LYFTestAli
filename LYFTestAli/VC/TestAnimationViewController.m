@@ -27,10 +27,27 @@
     NSLog(@"新字符串：%@",destSting);
 }
 
+//写一个取当前日期的方法，输入字符串，格式如下2010-02-19
+//格式化日期，其实就是利用一个日期格式化对象把日期转换成字符串了
+-(void)testDate{
+    
+     //先定义一个NSDateFormatter对象，
+    // 然后给这个格式对象定义成自己想要的格式，然后用它去转化其他日期即可
+    NSDate * nowDate = [NSDate date];
+    
+    NSDateFormatter *format1=[[NSDateFormatter alloc]init];
+    [format1 setDateFormat:@"yyyy-MM-dd HH:mm:ss"];
+     NSString *str1=[format1 stringFromDate:nowDate];
+    NSLog(@"str==%@",str1);
+                                                                                                                                             
+
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     [self replaceString];
+    [self testDate];
     
     self.view.backgroundColor=[UIColor colorWithHexString:@"0x12237d"];
     self.view.backgroundColor=colorWithHexStr(@"0x12237d");

@@ -2,8 +2,8 @@
 //  LYFTestAliTests.m
 //  LYFTestAliTests
 //
-//  Created by 李玉枫 on 2018/8/13.
-//  Copyright © 2018年 李玉枫. All rights reserved.
+//  Created by chancelee on 2018/8/13.
+//  Copyright © 2018年 chancelee. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>

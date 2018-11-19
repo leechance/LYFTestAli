@@ -1,7 +1,7 @@
-# LYFTestAli
-自己写的支付宝首页样式demo，代码写的很详细，喜欢的同学可以学习一下
+# 剑指offer
+## 编程题 
+1. 写一个View 从屏幕顶端动画移动到底部
+2. 写一个内联函数，将字符串@“#ff3344”换成相应的UIColor对象
+3. 将字符串@“abcdefghijklmn”中的efg 截取出来替换成 gfe
+4. 写一个取当前日期的方法，输入字符串，格式如下2010-02-19
 
-实现原理很简单，通过一个UIScrollView和UITableView的交互就可以实现，背景的View是一个UIScrollView，在上面的部分放置一个HeadView，下面的部分放置一个UITableView。通过控制UITableView的偏移量完成支付宝首页的效果。
-
-大家可以直接下载看一下代码，有不明白的可以直接问我，简书作者：枫developer
-简书：https://www.jianshu.com/p/658f2aeafa64
