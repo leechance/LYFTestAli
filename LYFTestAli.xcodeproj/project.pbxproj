@@ -53,6 +53,7 @@
 		4C2E519621A2714B00FE7620 /* 会议-我的会议icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C2E518D21A2714A00FE7620 /* 会议-我的会议icon.png */; };
 		4C2E519721A2714B00FE7620 /* 活动-调查icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C2E518E21A2714A00FE7620 /* 活动-调查icon.png */; };
 		4C2E519821A2714B00FE7620 /* 会议-会议室列表icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C2E518F21A2714A00FE7620 /* 会议-会议室列表icon.png */; };
+		4C2E519B21A2732200FE7620 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2E519A21A2732200FE7620 /* UIColor+Hex.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -153,6 +154,8 @@
 		4C2E518D21A2714A00FE7620 /* 会议-我的会议icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "会议-我的会议icon.png"; sourceTree = "<group>"; };
 		4C2E518E21A2714A00FE7620 /* 活动-调查icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "活动-调查icon.png"; sourceTree = "<group>"; };
 		4C2E518F21A2714A00FE7620 /* 会议-会议室列表icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "会议-会议室列表icon.png"; sourceTree = "<group>"; };
+		4C2E519921A2732200FE7620 /* UIColor+Hex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		4C2E519A21A2732200FE7620 /* UIColor+Hex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -387,6 +390,8 @@
 		4C2E518121A26DC000FE7620 /* VC */ = {
 			isa = PBXGroup;
 			children = (
+				4C2E519921A2732200FE7620 /* UIColor+Hex.h */,
+				4C2E519A21A2732200FE7620 /* UIColor+Hex.m */,
 				4C2E518221A26E0E00FE7620 /* TestAnimationViewController.h */,
 				4C2E518321A26E0E00FE7620 /* TestAnimationViewController.m */,
 				4C2E518421A26E0E00FE7620 /* TestAnimationViewController.xib */,
@@ -537,6 +542,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4BD387852122D0080088BDF8 /* MJRefreshNormalHeader.m in Sources */,
+				4C2E519B21A2732200FE7620 /* UIColor+Hex.m in Sources */,
 				4BD387862122D0080088BDF8 /* MJRefreshStateHeader.m in Sources */,
 				4BD3877C2122D0080088BDF8 /* UIScrollView+MJExtension.m in Sources */,
 				4BD387812122D0080088BDF8 /* MJRefreshBackNormalFooter.m in Sources */,
