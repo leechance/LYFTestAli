@@ -25,6 +25,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     self.view.backgroundColor=[UIColor colorWithHexString:@"0x12237d"];
+    self.view.backgroundColor=colorWithHexStr(@"0x12237d");
 }
 
 
